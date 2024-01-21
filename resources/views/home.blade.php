@@ -80,7 +80,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
+                        <h2 style="color: white">TrendsHub</h2>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->

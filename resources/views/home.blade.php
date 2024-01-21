@@ -95,7 +95,8 @@ https://templatemo.com/tm-582-tale-seo-agency
                               <li><a href="faqs.html">FAQs</a></li>
                           </ul>
                       </li>
-                      <li class="scroll-to-section"><a href="{{url('/login')}}">Admin Portal</a></li>
+                      <li class="scroll-to-section"><a href="{{url('/loginview')}}">Login</a></li>
+                      <li class="scroll-to-section"><a href="{{url('/registerview')}}">Register</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

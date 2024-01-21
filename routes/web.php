@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controller\HomeController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +18,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('login', [HomeController::class, "login"]);
+Route::get('loginview', [HomeController::class, "loginview"]);
+Route::get('registerview', [HomeController::class, "registerview"]);
 
 Route::middleware([
     'auth:sanctum',

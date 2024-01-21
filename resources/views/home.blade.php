@@ -86,17 +86,16 @@ https://templatemo.com/tm-582-tale-seo-agency
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#services">Services</a></li>
-                      <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+                      <li class="scroll-to-section"><a href="#SubmitFeedback">Submit Feedback</a></li>
+                      <li class="scroll-to-section"><a href="#BrowseSuggestions">Browse Suggestions</a></li>
                       <li class="has-sub">
-                          <a href="javascript:void(0)">Pages</a>
+                          <a href="javascript:void(0)">About/FAQ</a>
                           <ul class="sub-menu">
                               <li><a href="about.html">About Us</a></li>
                               <li><a href="faqs.html">FAQs</a></li>
                           </ul>
                       </li>
-                      <li class="scroll-to-section"><a href="#infos">Infos</a></li>
-                      <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Contact/Feedback</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

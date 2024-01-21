@@ -8,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <title>Tale SEO Agency CSS Template by TemplateMo website</title>
+    <title>TRENDSHUB</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -95,7 +95,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                               <li><a href="faqs.html">FAQs</a></li>
                           </ul>
                       </li>
-                      <li class="scroll-to-section"><a href="#contact">Contact/Feedback</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Admin Portal</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -113,13 +113,13 @@ https://templatemo.com/tm-582-tale-seo-agency
       <div class="row">
         <div class="col-lg-7">
           <div class="caption header-text">
-            <h6>SEO DIGITAL AGENCY</h6>
+            <h6>TRENDS HUB</h6>
             <div class="line-dec"></div>
-            <h4>Dive <em>Into The SEO</em> World <span>With Tale</span></h4>
-            <p>Tale is the best SEO agency website template using Bootstrap v5.2.2 CSS for your company. It is a free download provided by TemplateMo. There are 3 HTML pages, <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
-            <div class="main-button scroll-to-section"><a href="#services">Discover More</a></div>
+            <h4>Dive <em>Into  TRENDS HUB</em> World <span>With Us</span></h4>
+            <p>Trendshub is a dynamic social media platform designed to foster meaningful interactions and trend discussions. Users can share posts, engage with diverse content formats such as images, videos, and audio, and connect with others through comments and replies. The platform emphasizes trending topics and supports features like post verification, user badges, and notifications to enhance the user experience. Trendshub is a vibrant space where users can explore trending content, build connections, and stay informed on popular discussions. <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
+            <div class="main-button scroll-to-section"><a href="#services">Submit Feedback</a></div>
             <span>or</span>
-            <div class="second-button"><a href="faqs.html">Check our FAQs</a></div>
+            <div class="second-button"><a href="faqs.html">Browse Suggestions</a></div>
           </div>
         </div>
       </div>
@@ -369,7 +369,7 @@ https://templatemo.com/tm-582-tale-seo-agency
   <footer>
     <div class="container">
       <div class="col-lg-12">
-        <p>Copyright © 2036 <a href="#">Tale SEO Agency</a>. All rights reserved. 
+        <p>Copyright © 2024 <a href="#">Kwasi Codes Agency</a>. All rights reserved. 
         
         <br>Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
       </div>

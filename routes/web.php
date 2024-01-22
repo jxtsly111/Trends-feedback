@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('loginview', [HomeController::class, "loginview"]);
 Route::get('registerview', [HomeController::class, "registerview"]);
-Route::get('redirects',[HomeController::class, "redirects"]);
+Route::get('/redirects',[HomeController::class, "redirects"]);
 
 Route::middleware([
     'auth:sanctum',

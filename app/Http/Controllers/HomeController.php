@@ -13,4 +13,14 @@ class HomeController extends Controller
     public function registerview(){
         return view('auth.register');
     }
+
+    public function redirects(){
+        $usertype = Auth::usertype();
+        if($usertype == "1"){
+            return view('admin.adminhome');
+        }
+        else{
+            return view('home');
+        }
+    }
 }

@@ -8,21 +8,17 @@ use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
-    public function loginview(){
-        return view('auth.login');
-    }
+ public function index(){
+    return view('home');
+ }
 
-    public function registerview(){
-        return view('auth.register');
-    }
-
-    public function redirects(){
-        $usertype = Auth::user()->usertype;
-        if($usertype == '1'){
-            return view('admin.adminhome');
-        }
-        else{
-            return view('home');
-        }
-    }
+    // public function redirects(){
+    //     $usertype = Auth::user()->usertype;
+    //     if($usertype == '1'){
+    //         return view('admin.adminhome');
+    //     }
+    //     else{
+    //         return view('home');
+    //     }
+    // }
 }

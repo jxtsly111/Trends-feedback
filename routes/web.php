@@ -15,11 +15,11 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
-Route::get('loginview', [HomeController::class, "loginview"]);
-Route::get('registerview', [HomeController::class, "registerview"]);
+Route::get('/home',[HomeController::class,"index"]);
+
 Route::get('/redirects',[HomeController::class, "redirects"]);
 
 Route::middleware([

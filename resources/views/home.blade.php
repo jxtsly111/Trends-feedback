@@ -96,7 +96,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                           </ul>
                       </li>
 
-                      <li class="scroll-to-section">
+                      <li>
 
                         @if (Route::has('login'))
                         <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">

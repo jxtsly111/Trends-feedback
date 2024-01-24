@@ -13,19 +13,19 @@ class HomeController extends Controller
  }
 
  public function redirects()
- {
-     // Check if there's an authenticated user
-     if (Auth::check()) {
-         $usertype = Auth::user()->usertype;
- 
-         if ($usertype == '1') {
-             return view('admin.adminhome');
-         } else {
-             return view('home');
-         }
-     } else {
-         // No authenticated user, you may want to handle this case (redirect, show an error, etc.)
-         return redirect()->route('/home'); // Redirect to the login page, adjust as needed
-     }
- }
+{
+    // Check if there's an authenticated user
+    if (Auth::check()) {
+        $usertype = Auth::user()->usertype;
+
+        if ($usertype == '1') {
+            return view('admin.adminhome');
+        } else {
+            return view('home');
+        }
+    } else {
+        // No authenticated user, you may want to handle this case (redirect, show an error, etc.)
+        return redirect('/home'); // Redirect to the home page after logout
+    }
+}
 }

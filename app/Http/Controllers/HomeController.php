@@ -29,15 +29,4 @@ class HomeController extends Controller
     }
 }
 
-public function logout()
-{
-    // Check if there's an authenticated user
-    if (Auth::check()) {
-        // Redirect to the home page for all users upon logout
-        return redirect('/home');
-    } else {
-        // No authenticated user, redirect to the home page by default
-        return redirect('/home');
-    }
-}
 }

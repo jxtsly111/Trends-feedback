@@ -22,6 +22,8 @@ Route::get('/home',[HomeController::class,"index"]);
 
 Route::get('/redirects',[HomeController::class, "redirects"]);
 
+Route::get('/logout',[HomeController::class, "logout"]);
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

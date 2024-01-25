@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
 
+use App\Models\User;
+
 class HomeController extends Controller
 {
  public function index(){
@@ -20,7 +22,9 @@ class HomeController extends Controller
 
         if ($usertype == '1') {
             $username = Auth::user()->name;
-            return view('admin.adminhome', ['username' => $username]);
+            $totalUsers = User::count();
+            $totalAdmins = User::where('usertype', '1')->count();
+            return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins]);
         } else {
             return view('home');
         }

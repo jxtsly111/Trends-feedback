@@ -381,7 +381,7 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$12.34</h3>
+                          <h3 class="mb-0">{{ $totalUsers }}</h3>
                         </div>
                       </div>
                       <div class="col-3">
@@ -397,7 +397,7 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$17.34</h3>
+                          <h3 class="mb-0">{{ $totalAdmins }}</h3>
                         </div>
                       </div>
                       <div class="col-3">

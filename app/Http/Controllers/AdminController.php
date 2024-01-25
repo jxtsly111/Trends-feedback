@@ -16,4 +16,8 @@ class AdminController extends Controller
         $totalAdmins = User::where('usertype', '1')->count();
         return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins]);
     }
+
+    public function feedback(){
+        return view('admin.feedback');
+    }
 }

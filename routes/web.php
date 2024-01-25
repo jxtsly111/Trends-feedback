@@ -25,6 +25,8 @@ Route::get('/redirects',[HomeController::class, "redirects"]);
 
 Route::get('/admindashboard',[AdminController::class, "adminhome"]);
 
+Route::get('/feedback',[AdminController::class, "feedback"]);
+
 
 
 

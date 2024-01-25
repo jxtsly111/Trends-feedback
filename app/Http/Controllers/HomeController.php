@@ -33,16 +33,8 @@ public function logout()
 {
     // Check if there's an authenticated user
     if (Auth::check()) {
-        // If authenticated, redirect based on the user type
-        $usertype = Auth::user()->usertype;
-
-        if ($usertype == '1') {
-            // Admin user
-            return redirect()->route('admin.dashboard'); // Redirect to the admin dashboard, adjust as needed
-        } else {
-            // Non-admin user
-            return redirect('/home'); // Redirect to the home page, adjust as needed
-        }
+        // Redirect to the home page for all users upon logout
+        return redirect('/home');
     } else {
         // No authenticated user, redirect to the home page by default
         return redirect('/home');

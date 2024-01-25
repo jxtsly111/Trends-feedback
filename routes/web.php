@@ -23,7 +23,7 @@ Route::get('/home',[HomeController::class,"index"]);
 
 Route::get('/redirects',[HomeController::class, "redirects"]);
 
-Route::get('/dashboard',[AdminController::class, "adminhome"]);
+Route::get('/admindashboard',[AdminController::class, "adminhome"]);
 
 
 

@@ -237,62 +237,22 @@
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="row">
-              <div class="col-12 grid-margin stretch-card">
-                <div class="card corona-gradient-card">
-                  <div class="card-body py-0 px-0 px-sm-3">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-9">
-                        <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">{{ $totalUsers }}</h3>
+
+                <div class="col-md-4 grid-margin stretch-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Top aligned media</h4>
+                        <div class="media">
+                          <i class="mdi mdi-earth icon-md text-info d-flex align-self-start me-3"></i>
+                          <div class="media-body">
+                            <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.</p>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-3">
-                      </div>
                     </div>
-                    <h6 class="text-muted font-weight-normal">Total Number of Users</h6>
                   </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-9">
-                        <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">{{ $totalAdmins }}</h3>
-                        </div>
-                      </div>
-                      <div class="col-3">
-                      </div>
-                    </div>
-                    <h6 class="text-muted font-weight-normal">Total Number of Administrators</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-9">
-                        <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$12.34</h3>
-                        </div>
-                      </div>
-                      <div class="col-3">
-                      </div>
-                    </div>
-                    <h6 class="text-muted font-weight-normal">Total Number of submitted feedback</h6>
-                  </div>
-                </div>
-              </div>
+
+              
             </div>
           </div>
           <!-- content-wrapper ends -->

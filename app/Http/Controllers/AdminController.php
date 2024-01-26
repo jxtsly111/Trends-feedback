@@ -18,6 +18,9 @@ class AdminController extends Controller
     }
 
     public function feedback(){
-        return view('admin.feedback');
+        $username = Auth::user()->name;
+        $totalUsers = User::count();
+        $totalAdmins = User::where('usertype', '1')->count();
+        return view('admin.feedback', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins]);
     }
 }

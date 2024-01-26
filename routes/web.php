@@ -27,6 +27,8 @@ Route::get('/admindashboard',[AdminController::class, "adminhome"]);
 
 Route::get('/feedback',[AdminController::class, "feedback"]);
 
+Route::post('/feedbacksubmit',[AdminController::class, "feedbacksubmit"]);
+
 
 
 

@@ -316,7 +316,7 @@ https://templatemo.com/tm-582-tale-seo-agency
           <div class="contact-us-content">
             <div class="row">
               <div class="col-lg-12">
-                <form id="contact-form" action="{{url('/feedbacksubmit')}}" method="post">
+                <form id="contact-form" action="{{url('/feedbacksubmit')}}" method="post">@csrf
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="section-heading">

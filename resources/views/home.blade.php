@@ -46,6 +46,34 @@ https://templatemo.com/tm-582-tale-seo-agency
 
   <!-- ***** Pre-Header Area Start ***** -->
   <div class="pre-header">
+    @if(session('success'))
+    <div class="alert alert-success" id="success-message">
+        {{ session('success') }}
+    </div>
+    <script>
+        // Automatically hide the success message after 5 seconds
+        setTimeout(function(){
+            document.getElementById('success-message').style.display = 'none';
+        }, 5000);
+    </script>
+    @endif
+  
+  
+    @if ($errors->any())
+    <div class="alert alert-danger" id="error-message">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+    <script>
+        // Automatically hide the error message after 5 seconds
+        setTimeout(function(){
+            document.getElementById('error-message').style.display = 'none';
+        }, 5000);
+    </script>
+    @endif
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-9">
@@ -122,15 +150,14 @@ https://templatemo.com/tm-582-tale-seo-agency
 
                       </li>
                   </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
                     <!-- ***** Menu End ***** -->
                 </nav>
             </div>
         </div>
     </div>
   </header>
+
+
   <!-- ***** Header Area End ***** -->
 
   <div class="main-banner" id="top">

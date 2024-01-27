@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Auth;
 
 use App\Models\User;
 
+use App\Models\Feedback;
+
 class HomeController extends Controller
 {
  public function index(){
@@ -24,7 +26,8 @@ class HomeController extends Controller
             $username = Auth::user()->name;
             $totalUsers = User::count();
             $totalAdmins = User::where('usertype', '1')->count();
-            return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins]);
+            $totalFeedback = Feedback::count();
+            return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins, 'totalFeedback' => $totalFeedback]);
         } else {
             return view('home');
         }

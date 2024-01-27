@@ -16,14 +16,15 @@ class AdminController extends Controller
         $username = Auth::user()->name;
         $totalUsers = User::count();
         $totalAdmins = User::where('usertype', '1')->count();
-        return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins]);
+        $totalFeedback = Feedback::count();
+        return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins, 'totalFeedback' => $totalFeedback]);
     }
 
     public function feedback(){
         $username = Auth::user()->name;
         $totalUsers = User::count();
         $totalAdmins = User::where('usertype', '1')->count();
-        return view('admin.feedback', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins]);
+        return view('admin.feedback', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins,]);
     }
 
     public function feedbacksubmit(Request $request)

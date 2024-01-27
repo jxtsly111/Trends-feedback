@@ -237,22 +237,21 @@
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="row">
-
+                @foreach($data as $data)
                 <div class="col-md-4 grid-margin stretch-card">
                     <div class="card">
                       <div class="card-body">
-                        <h4 class="card-title">Top aligned media</h4>
+                        <h4 class="card-title">Anonymous</h4>
                         <div class="media">
-                          <i class="mdi mdi-earth icon-md text-info d-flex align-self-start me-3"></i>
+                          <i class="mdi mdi-star-half icon-md text-info d-flex align-self-start me-3"></i>
                           <div class="media-body">
-                            <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.</p>
+                            <p class="card-text">{{$data->message}}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-
-              
+                @endforeach
             </div>
           </div>
           <!-- content-wrapper ends -->

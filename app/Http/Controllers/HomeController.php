@@ -13,7 +13,8 @@ use App\Models\Feedback;
 class HomeController extends Controller
 {
  public function index(){
-    return view('home');
+    $data = Feedback::all();
+    return view('home',compact('data'));
  }
 
  public function redirects()

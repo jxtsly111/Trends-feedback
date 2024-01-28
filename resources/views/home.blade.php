@@ -115,7 +115,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                       <li class="scroll-to-section"><a href="#contact">Submit Feedback</a></li>
-                      <li class="scroll-to-section"><a href="#BrowseSuggestions">Browse Suggestions</a></li>
+                      <li class="scroll-to-section"><a href="#projects">Browse Suggestions</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">About/FAQ</a>
                           <ul class="sub-menu">
@@ -234,7 +234,7 @@ https://templatemo.com/tm-582-tale-seo-agency
       <div class="row">
         <div class="col-lg-6">
           <div class="section-heading">
-            <h2>Discover Other <em>Feedbacks</em> <span>About Trendshub</span></h2>
+            <h2>Browse Other <em>Feedbacks</em> <span>About Trendshub</span></h2>
             <div class="line-dec"></div>
           </div>
         </div>
@@ -244,17 +244,19 @@ https://templatemo.com/tm-582-tale-seo-agency
       <div class="row">
         <div class="col-lg-12">
           <div class="owl-features owl-carousel">
-            @foreach($data as $data)
+            @forelse($data as $item)
             <div class="col-lg-6 col-sm-6">
                 <div class="service-item">
-                  <div class="icon">
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <h4>Anonymous</h4>
-                  <p>{{$data->message}}</p>
+                    <div class="icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Anonymous</h4>
+                    <p style="color: black">{{ $item->message }}</p>
                 </div>
-              </div>
-            @endforeach
+            </div>
+        @empty
+            <p>No feedback available</p>
+        @endforelse
           </div>
       </div>
     </div>
@@ -320,12 +322,12 @@ https://templatemo.com/tm-582-tale-seo-agency
                     
                     <div class="col-lg-12">
                       <fieldset>
-                        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                        <textarea name="message" id="message" placeholder="Your Feedback"></textarea>
                       </fieldset>
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                        <button type="submit" id="form-submit" class="orange-button">Send Feedback Now</button>
                       </fieldset>
                     </div>
                   </div>

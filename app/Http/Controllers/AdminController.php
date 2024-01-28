@@ -37,13 +37,13 @@ class AdminController extends Controller
     {
         // Validation rules
         $validatedData = $request->validate([
-            'message' => 'required|max:255', // adjust max length as needed
+            'message' => 'required|max:5000', // adjust max length as needed
         ]);
     
         try {
             // Attempt to save the feedback
             $data = new Feedback;
-            $data->message = $validatedData['message'];
+            $data->message = $request->message; // Use $request->message instead of $validatedData['message']
             $data->save();
     
             // Check if save was successful
@@ -57,4 +57,5 @@ class AdminController extends Controller
             return redirect()->back()->with('error', 'An error occurred while submitting feedback.');
         }
     }
+    
 }

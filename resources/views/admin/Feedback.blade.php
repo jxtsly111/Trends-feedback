@@ -234,6 +234,17 @@
           </div>
         </nav>
         <!-- partial -->
+        @if(session('success'))
+        <div class="alert alert-success" id="success-message">
+            {{ session('success') }}
+        </div>
+        <script>
+            // Automatically hide the success message after 5 seconds
+            setTimeout(function(){
+                document.getElementById('success-message').style.display = 'none';
+            }, 5000);
+        </script>
+        @endif
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="row">

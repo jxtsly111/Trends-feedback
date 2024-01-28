@@ -12,6 +12,11 @@ use App\Models\Feedback;
 
 class AdminController extends Controller
 {
+    public function deletefeedback($id){
+        $data = Feedback::find($id);
+        $data ->delete();
+        return redirect()->back()->with('success', 'Feedback deleted successfully.');
+    }
     public function adminhome(){
         $username = Auth::user()->name;
         $totalUsers = User::count();

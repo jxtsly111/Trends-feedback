@@ -29,6 +29,8 @@ Route::get('/feedback',[AdminController::class, "feedback"]);
 
 Route::post('/feedbacksubmit',[AdminController::class, "feedbacksubmit"]);
 
+Route::get('/deletefeedback/{id}',[AdminController::class, "deletefeedback"]);
+
 
 
 

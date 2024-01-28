@@ -33,6 +33,8 @@ Route::post('/feedbacksubmit',[AdminController::class, "feedbacksubmit"]);
 
 Route::get('/deletefeedback/{id}',[AdminController::class, "deletefeedback"]);
 
+Route::get('/deleteuser/{id}',[AdminController::class, "deleteuser"]);
+
 
 
 

@@ -235,6 +235,17 @@
         </nav>
         <!-- partial -->
         <div class="main-panel">
+            @if(session('success'))
+            <div class="alert alert-danger" id="success-message">
+                {{ session('success') }}
+            </div>
+            <script>
+                // Automatically hide the success message after 5 seconds
+                setTimeout(function(){
+                    document.getElementById('success-message').style.display = 'none';
+                }, 5000);
+            </script>
+            @endif
           <div class="content-wrapper">
             <div class="row">
               <div class="col-12 grid-margin stretch-card">
@@ -316,7 +327,7 @@
                             </td>
                             <td style="color: white">{{$data->email}} </td>
                             <td>
-                                <button style="margin-top: 20px" class="btn btn-danger btn-fw"><a style="text-decoration: none; color:white;" href="#">Delete</a></button>
+                                <button style="margin-top: 20px" class="btn btn-danger btn-fw"><a style="text-decoration: none; color:white;" href="{{url('/deleteuser',$data->id)}}">Delete</a></button>
                             </td>
                           </tr>
                           @endforeach

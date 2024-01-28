@@ -17,6 +17,12 @@ class AdminController extends Controller
         $data ->delete();
         return redirect()->back()->with('success', 'Feedback deleted successfully.');
     }
+
+    public function deleteuser($id){
+        $data = User::find($id);
+        $data ->delete();
+        return redirect()->back()->with('success', 'User deleted successfully.');
+    }
     public function adminhome(){
         $data = User::all();
         $username = Auth::user()->name;

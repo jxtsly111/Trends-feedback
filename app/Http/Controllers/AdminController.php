@@ -18,11 +18,12 @@ class AdminController extends Controller
         return redirect()->back()->with('success', 'Feedback deleted successfully.');
     }
     public function adminhome(){
+        $data = User::all();
         $username = Auth::user()->name;
         $totalUsers = User::count();
         $totalAdmins = User::where('usertype', '1')->count();
         $totalFeedback = Feedback::count();
-        return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins, 'totalFeedback' => $totalFeedback]);
+        return view('admin.adminhome', compact('data'), ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins, 'totalFeedback' => $totalFeedback]);
     }
 
     public function feedback(){

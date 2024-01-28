@@ -293,6 +293,39 @@
                   </div>
                 </div>
               </div>
+
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Users Voluntered To Support Trendshub</h4>
+                    </p>
+                    <div class="table-responsive">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th> Full name </th>
+                            <th> Gmail </th>
+                            <th> Action </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($data as $data)
+                          <tr>
+                            <td class="py-1">
+                              <p style="color: white">{{$data->name}}</p>
+                            </td>
+                            <td style="color: white">{{$data->email}} </td>
+                            <td>
+                                <button style="margin-top: 20px" class="btn btn-danger btn-fw"><a style="text-decoration: none; color:white;" href="#">Delete</a></button>
+                            </td>
+                          </tr>
+                          @endforeach
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- content-wrapper ends -->

@@ -244,15 +244,17 @@ https://templatemo.com/tm-582-tale-seo-agency
       <div class="row">
         <div class="col-lg-12">
           <div class="owl-features owl-carousel">
+            @foreach($data as $data)
             <div class="col-lg-6 col-sm-6">
                 <div class="service-item">
                   <div class="icon">
                     <i class="fa-solid fa-star"></i>
                   </div>
                   <h4>Anonymous</h4>
-                  <p>Discover More on Latest SEO Trends</p>
+                  <p>{{$data->message}}</p>
                 </div>
               </div>
+            @endforeach
           </div>
       </div>
     </div>

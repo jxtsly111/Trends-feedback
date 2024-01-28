@@ -29,11 +29,13 @@ class HomeController extends Controller
             $totalFeedback = Feedback::count();
             return view('admin.adminhome', ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins, 'totalFeedback' => $totalFeedback]);
         } else {
-            return view('home');
+            $data = Feedback::all();
+            return view('home',compact('data'));
         }
     } else {
         // No authenticated user, you may want to handle this case (redirect, show an error, etc.)
-        return redirect('/home'); // Redirect to the home page after logout
+        $data = Feedback::all();
+        return redirect('/home',compact('data')); // Redirect to the home page after logout
     }
 }
 

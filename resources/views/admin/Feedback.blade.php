@@ -247,6 +247,7 @@
                           <div class="media-body">
                             <p class="card-text">{{$data->message}}</p>
                           </div>
+                          <button style="margin-top: 20px" class="btn btn-danger btn-fw"><a style="text-decoration: none; color:white;" href="{{url('/deletefeedback',$data->id)}}">Delete</a></button>
                         </div>
                       </div>
                     </div>

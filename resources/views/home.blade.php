@@ -179,9 +179,8 @@ https://templatemo.com/tm-582-tale-seo-agency
             <div class="col-lg-12">
               <div class="section-heading">
                 <h2>We Provide <em>Different Services</em> &amp;
-                  <span>Features</span> For Your Agency</h2>
+                  <span>Features</span> For You On TrendsHub</h2>
                   <div class="line-dec"></div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.</p>
               </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -189,7 +188,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                 <div class="icon">
                   <img src="assets/images/services-01.jpg" alt="discover SEO" class="templatemo-feature">
                 </div>
-                <h4>Discover More on Latest SEO Trends</h4>
+                <h4>Discover More Latest Trends</h4>
               </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -213,7 +212,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                 <div class="icon">
                   <img src="assets/images/services-04.jpg" alt="SEO marketing" class="templatemo-feature">
                 </div>
-                <h4>SEO Marketing &amp; Social Media</h4>
+                <h4>Blogging, Marketing &amp; Social Media</h4>
               </div>
             </div>
           </div>

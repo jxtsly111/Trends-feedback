@@ -116,14 +116,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                       <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                       <li class="scroll-to-section"><a href="#contact">Submit Feedback</a></li>
                       <li class="scroll-to-section"><a href="#projects">Browse Suggestions</a></li>
-                      <li class="has-sub">
-                          <a href="javascript:void(0)">About/FAQ</a>
-                          <ul class="sub-menu">
-                              <li><a href="about.html">About Us</a></li>
-                              <li><a href="faqs.html">FAQs</a></li>
-                          </ul>
-                      </li>
-
+                      <li class="scroll-to-section"><a href="#infos">About Us</a></li>
                       <li>
 
                         @if (Route::has('login'))
@@ -262,41 +255,42 @@ https://templatemo.com/tm-582-tale-seo-agency
     </div>
   </div>
 
-  <div class="infos section" id="infos">
+  <div class="infos section video-info" id="infos">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="main-content">
             <div class="row">
               <div class="col-lg-6">
-                <div class="left-image">
-                  <img src="assets/images/left-infos.jpg" alt="">
-                </div>
+                    <div class="video-thumb">
+                        <img style="height: 750px" src="assets/images/trends.jpeg" alt="">
+                        <a href="https://www.youtube.com/watch?v=tKWreyKw72Q" target="_blank"><i class="fa fa-play"></i></a>
+                      </div>
               </div>
               <div class="col-lg-6">
                 <div class="section-heading">
-                  <h2>More <em>About Us</em> &amp; What <span>We Offer</span></h2>
+                  <h2> <em>About  </em><span>TrendsHub</span></h2>
                   <div class="line-dec"></div>
                   <p>You are free to use this template for any purpose. You are not allowed to redistribute the downloadable ZIP file of Tale SEO Template on any other template website. Please contact us. Thank you.</p>
                 </div>
                 <div class="skills">
                   <div class="skill-slide marketing">
                     <div class="fill"></div>
-                    <h6>Marketing</h6>
+                    <h6>User Friendly</h6>
                     <span>90%</span>
                   </div>
                   <div class="skill-slide digital">
                     <div class="fill"></div>
-                    <h6>Ditigal Media</h6>
+                    <h6>Trending Topics</h6>
                     <span>80%</span>
                   </div>
                   <div class="skill-slide media">
                     <div class="fill"></div>
-                    <h6>Social Media Managing</h6>
+                    <h6>Meaningful Interactions</h6>
                     <span>95%</span>
                   </div>
                 </div>
-                <p class="more-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.</p>
+                <p class="more-info">Trendshub is a dynamic social media platform designed to foster meaningful interactions and trend discussions.</p>
               </div>
             </div>
           </div>

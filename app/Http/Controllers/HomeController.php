@@ -27,9 +27,10 @@ class HomeController extends Controller
             $data = User::all();
             $username = Auth::user()->name;
             $totalUsers = User::count();
+            $totalVolunteer = User::where('usertype','0')->count();
             $totalAdmins = User::where('usertype', '1')->count();
             $totalFeedback = Feedback::count();
-            return view('admin.adminhome',compact('data'), ['username' => $username, 'totalUsers' => $totalUsers,'totalAdmins' => $totalAdmins, 'totalFeedback' => $totalFeedback]);
+            return view('admin.adminhome',compact('data'), ['username' => $username, 'totalUsers' => $totalUsers, 'totalVolunteer' => $totalVolunteer,'totalAdmins' => $totalAdmins, 'totalFeedback' => $totalFeedback]);
         } else {
             $data = Feedback::all();
             return view('home',compact('data'));

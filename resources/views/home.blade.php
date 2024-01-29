@@ -78,20 +78,20 @@ https://templatemo.com/tm-582-tale-seo-agency
       <div class="row">
         <div class="col-lg-8 col-sm-9">
           <div class="left-info">
-            <ul>
-              <li><a href="#"><i class="fa fa-phone"></i>+233 59 760 8469</a></li>
-              <li><a href="#"><i class="fa fa-envelope"></i>Kwasievans2002@email.com</a></li>
-              <li><a href="#"><i class="fa fa-map-marker"></i>Accra</a></li>
+            <ul >
+              <li><a style="color: black" href="#"><i class="fa fa-phone"></i>+233 59 760 8469</a></li>
+              <li><a style="color: black" href="#"><i class="fa fa-envelope"></i>Kwasievans2002@email.com</a></li>
+              <li><a style="color: black" href="#"><i class="fa fa-map-marker"></i>Accra</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-4 col-sm-3">
           <div class="social-icons">
             <ul>
-              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+              <li><a style="color: black" href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a style="color: black" href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a style="color: black" href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a style="color: black" href="#"><i class="fab fa-google-plus"></i></a></li>
             </ul>
           </div>
         </div>
@@ -154,21 +154,21 @@ https://templatemo.com/tm-582-tale-seo-agency
   <!-- ***** Header Area End ***** -->
 
   <div class="main-banner" id="top">
-    <div class="container">
+    <divhome class="container">
       <div class="row">
         <div class="col-lg-7">
           <div class="caption header-text">
-            <h6>TRENDS HUB</h6>
+            <h6 style="color: black">TRENDS HUB</h6>
             <div class="line-dec"></div>
             <h4>Dive <em>Into  TRENDS HUB</em> World <span>With Us</span></h4>
             <p>Trendshub is a dynamic social media platform designed to foster meaningful interactions and trend discussions. Users can share posts, engage with diverse content formats such as images, videos, and audio, and connect with others through comments and replies. The platform emphasizes trending topics and supports features like post verification, user badges, and notifications to enhance the user experience. Trendshub is a vibrant space where users can explore trending content, build connections, and stay informed on popular discussions. <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
-            <div class="main-button scroll-to-section"><a href="#contact">Submit Feedback</a></div>
+            <div class="main-button scroll-to-section"><a style="background-color: black" href="#contact">Submit Feedback</a></div>
             <span>or</span>
-            <div class="second-button"><a href="#projects">Browse Suggestions</a></div>
+            <div class="second-button"><a style="background-color: black" href="#projects">Browse Suggestions</a></div>
           </div>
         </div>
       </div>
-    </div>
+    </divhome
   </div>
 
   <div class="services section" id="services">
@@ -226,7 +226,7 @@ https://templatemo.com/tm-582-tale-seo-agency
       <div class="row">
         <div class="col-lg-6">
           <div class="section-heading">
-            <h2>Browse Other <em>Feedbacks</em> <span>About Trendshub</span></h2>
+            <h2>Browse Other Feedbacks About Trendshub</h2>
             <div class="line-dec"></div>
           </div>
         </div>

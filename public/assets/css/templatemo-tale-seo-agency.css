@@ -403,12 +403,7 @@ Header Style
 
 .header-area {
     position: absolute;
-    background: rgb(85, 0, 227);
-    background: linear-gradient(
-        90deg,
-        rgba(85, 0, 227, 1) 0%,
-        rgba(198, 61, 255, 1) 100%
-    );
+    background: black;
     height: 110px;
     top: 57px;
     left: 0;

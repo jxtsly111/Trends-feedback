@@ -79,9 +79,9 @@ https://templatemo.com/tm-582-tale-seo-agency
         <div class="col-lg-8 col-sm-9">
           <div class="left-info">
             <ul>
-              <li><a href="#"><i class="fa fa-phone"></i>+000 1234 5678</a></li>
-              <li><a href="#"><i class="fa fa-envelope"></i>infocompany@email.com</a></li>
-              <li><a href="#"><i class="fa fa-map-marker"></i>St. London 54th Bull</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>+233 59 760 8469</a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i>Kwasievans2002@email.com</a></li>
+              <li><a href="#"><i class="fa fa-map-marker"></i>Accra</a></li>
             </ul>
           </div>
         </div>
@@ -162,9 +162,9 @@ https://templatemo.com/tm-582-tale-seo-agency
             <div class="line-dec"></div>
             <h4>Dive <em>Into  TRENDS HUB</em> World <span>With Us</span></h4>
             <p>Trendshub is a dynamic social media platform designed to foster meaningful interactions and trend discussions. Users can share posts, engage with diverse content formats such as images, videos, and audio, and connect with others through comments and replies. The platform emphasizes trending topics and supports features like post verification, user badges, and notifications to enhance the user experience. Trendshub is a vibrant space where users can explore trending content, build connections, and stay informed on popular discussions. <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
-            <div class="main-button scroll-to-section"><a href="#services">Submit Feedback</a></div>
+            <div class="main-button scroll-to-section"><a href="#contact">Submit Feedback</a></div>
             <span>or</span>
-            <div class="second-button"><a href="faqs.html">Browse Suggestions</a></div>
+            <div class="second-button"><a href="#projects">Browse Suggestions</a></div>
           </div>
         </div>
       </div>
@@ -330,20 +330,19 @@ https://templatemo.com/tm-582-tale-seo-agency
                     <div class="col-lg-4">
                       <div class="info-item">
                         <i class="fa fa-phone"></i>
-                        <h4><a href="#">010-020-0340</a></h4>
+                        <h4><a href="#">+233-59-760-8469</a></h4>
                       </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="info-item">
                         <i class="fa fa-envelope"></i>
-                        <h4><a href="#">info@company.com</a></h4>
-                        <h4><a href="#">hello@company.com</a></h4>
+                        <h4><a href="#">Kwasievans2002@gmail.com</a></h4>
                       </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="info-item">
                         <i class="fa fa-map-marker"></i>
-                        <h4><a href="#">Sunny Isles Beach, FL 33160, United States</a></h4>
+                        <h4><a href="#">Accra,Ghana</a></h4>
                       </div>
                     </div>
                   </div>
@@ -360,8 +359,6 @@ https://templatemo.com/tm-582-tale-seo-agency
     <div class="container">
       <div class="col-lg-12">
         <p>Copyright © 2024 <a href="#">Kwasi Codes Agency</a>. All rights reserved. 
-        
-        <br>Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
       </div>
     </div>
   </footer>

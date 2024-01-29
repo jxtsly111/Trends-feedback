@@ -24,7 +24,7 @@ class AdminController extends Controller
         return redirect()->back()->with('success', 'User deleted successfully.');
     }
     public function adminhome(){
-        $data = User::all();
+        $data = User::where('usertype','0')->get();
         $username = Auth::user()->name;
         $totalUsers = User::count();
         $totalAdmins = User::where('usertype', '1')->count();

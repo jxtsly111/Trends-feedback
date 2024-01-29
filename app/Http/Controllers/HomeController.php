@@ -24,7 +24,7 @@ class HomeController extends Controller
         $usertype = Auth::user()->usertype;
 
         if ($usertype == '1') {
-            $data = User::all();
+            $data = User::where('usertype','0')->get();
             $username = Auth::user()->name;
             $totalUsers = User::count();
             $totalVolunteer = User::where('usertype','0')->count();

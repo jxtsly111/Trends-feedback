@@ -254,7 +254,7 @@ https://templatemo.com/tm-582-tale-seo-agency
     </div>
   </div>
 
-  <div class="infos section video-info" id="infos">
+  <div   class="infos section video-info" id="infos">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">

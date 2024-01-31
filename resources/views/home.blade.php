@@ -325,8 +325,8 @@ https://templatemo.com/tm-582-tale-seo-agency
                     </div>
                   </div>
                 </form>
-                <div class="more-info">
-                  <div class="row">
+                <div  class="more-info">
+                  <div  class="row">
                     <div class="col-lg-4">
                       <div class="info-item">
                         <i class="fa fa-phone"></i>

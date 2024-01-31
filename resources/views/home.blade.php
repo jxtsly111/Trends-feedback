@@ -320,7 +320,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="orange-button">Send Feedback Now</button>
+                        <button style="background-color: black" type="submit" id="form-submit" class="orange-button">Send Feedback Now</button>
                       </fieldset>
                     </div>
                   </div>

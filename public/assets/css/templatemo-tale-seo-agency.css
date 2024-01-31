@@ -1117,7 +1117,7 @@ Infos Style
 */
 
 .infos {
-    background-image: url(../images/infos-bg.jpg);
+    background: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1435,7 +1435,6 @@ Infos Style
 */
 
 .video-info {
-    background-image: url(../images/video-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

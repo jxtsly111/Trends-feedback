@@ -333,7 +333,11 @@ https://templatemo.com/tm-582-tale-seo-agency
                         <h4><a href="#">+233-59-760-8469</a></h4>
                       </div>
                     </div>
-                    
+                    <div class="col-lg-4">
+                      <div class="info-item">
+                        <i class="fa fa-envelope"></i>
+                        <h4><a href="#">Kwasievans2002@gmail.com</a></h4>
+                      </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="info-item">
